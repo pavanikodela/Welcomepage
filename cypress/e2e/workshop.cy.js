@@ -12,6 +12,7 @@ describe('Workshop Enrollment', () => {
 
         cy.get('#react').check() 
         cy.get('#slot').select('11AMto12PM') 
+      
 
         cy.get('#submit').click() 
 
